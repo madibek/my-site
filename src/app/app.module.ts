@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CustomerComponent } from './customer/customer.component';
 import { PageNotFoundComponent } from './page-not-found.component';
+import { AdminModule } from './admin/admin.module';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { PageNotFoundComponent } from './page-not-found.component';
   ],
   imports: [
     BrowserModule,
+    AdminModule,
     AppRoutingModule
   ],
   providers: [],
